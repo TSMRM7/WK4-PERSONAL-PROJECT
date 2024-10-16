@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sherehe Planner Pro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Sherehe Planner Pro</h1>
+
+        
+        <section class="party-creation">
+            <h2>Create a Party</h2>
+            <form id="party-form">
+                <input type="text" id="party-name" placeholder="Party Name" required>
+                <input type="text" id="party-theme" placeholder="Part Theme" required>
+                <input type="date" id="party-date" required>
+                <input type="time" id="party-time" required>
+                <input type="text" id="party-location" placeholder="Location" required>
+                <button type="submit">Create Party></button>
+
+            </form>
+            <div id="party-details"></div>
+        </section>
+
+        
+         <section class="guest-list">
+            <h2>Guest List</h2>
+            <form id="guest-form">
+                <input type="text" id="guest-name" placeholder="Guest Name" required>
+                <input type="email" id="guest-email" placeholder="Guest Email" required>
+                <select id="guest-rsvp">
+                    <option value="yes">Yes</option>
+                    <option value="no">No</option>
+                    <option value="maybe">Maybe</option>
+                </select>
+                <button type="submit">Add Guest</button>
+            </form>
+            <ul id="guest-list-items"></ul>
+        </section>
+
+        
+         <section id="to-do-list">
+            <h2>To-Do List</h2>
+            <form id="task-form">
+                <input type="text" id="task-description" placeholder="Task Description" required>
+                <input type="date" id="task-due-date" required>
+                <button type="submit">Add Task</button>
+            </form>
+            <ul id="task-list-items"></ul>
+         </section>
+
+         
+          <section id="food-menu">
+            <h2>Drinks Menu</h2>
+            <div id="food-items"></div>
+        </section>
+
+  
+    </di>
+
+    <script src="index.js"></script>
+    
+</body>
+</html>

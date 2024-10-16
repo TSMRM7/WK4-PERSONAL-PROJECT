@@ -1,0 +1,75 @@
+{
+    "foods": [
+      {
+        "id": 1,
+        "name": "Chrome",
+        "type": "Gin",
+        
+        "quantity": 10
+      },
+      {
+        "id": 2,
+        "name": "Kenya Cane ",
+        "type": "Gin",
+        
+        "quantity": 15
+      },
+      {
+        "id": 3,
+        "name": "County",
+        "type": "Brandy",
+        
+        "quantity": 5
+      },
+      {
+        "id": 4,
+        "name": "Gilbey's",
+        "type": "Gin",
+        
+        "quantity": 8
+      },
+      {
+        "id": 5,
+        "name": "Hunter's Choice",
+        "type": "Whiskey",
+        
+        "quantity": 12
+      },
+      {
+        "id": 6,
+        "name": "Hampton Dram",
+        "type": "Whiskey",
+        
+        "quantity": 6
+      },
+      {
+        "id": 7,
+        "name": "Clase Azul",
+        "type": "Tequila",
+        
+        "quantity": 1
+      },
+      {
+        "id": 8,
+        "name": "JW Red Label",
+        "type": "Whiskey",
+        
+        "quantity": 10
+      },
+      {
+        "id": 9,
+        "name": "Konyagi",
+        "type": "Spirit",
+        
+        "quantity": 90
+      },
+      {
+        "id": 10,
+        "name": "Gordons",
+        "type": "Gin",
+        
+        "quantity": 7
+      }
+    ]
+  }
+  
